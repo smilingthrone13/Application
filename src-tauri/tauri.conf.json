@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "application",
-    "version": "0.2.0"
+    "version": "0.1.0"
   },
   "tauri": {
     "updater": {
@@ -16,7 +16,7 @@
       "endpoints": [
         "HTTPS://localhost:8000/latest.json"
       ],
-      "dialog": true,
+      "dialog": false,
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY5NTRFQzcyQUU1RkJFMTYKUldRV3ZsK3VjdXhVK1ppeFRWa1lONHREcjJwblpCT3Z1QWRFWE0yKzlXN0swQW9ybUxqdFlDMXIK"
     },
     "allowlist": {

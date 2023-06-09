@@ -7,10 +7,18 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "Application",
-    "version": "0.0.0"
+    "productName": "application",
+    "version": "0.2.0"
   },
   "tauri": {
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "HTTPS://localhost:8000/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEY5NTRFQzcyQUU1RkJFMTYKUldRV3ZsK3VjdXhVK1ppeFRWa1lONHREcjJwblpCT3Z1QWRFWE0yKzlXN0swQW9ybUxqdFlDMXIK"
+    },
     "allowlist": {
       "all": false,
       "shell": {
@@ -21,7 +29,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "test.app.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",

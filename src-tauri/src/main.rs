@@ -3,7 +3,7 @@
 
 #[tauri::command]
 fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from version two! Wow this shit sucks!", name)
+    format!("Hello, {}! This is version one, before app updating.", name)
 }
 
 fn main() {

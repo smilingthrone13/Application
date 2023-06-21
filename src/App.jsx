@@ -42,7 +42,7 @@ function App() {
           notifications.show({
             title: 'Update available!',
             message: <>
-              <button color={color} style={{ width: '100%' }} onClick={() => startInstall(newVersion)}>{('Install update and relaunch')}</button>
+              <button color={color} style={{ width: '100%' }} onClick={() => startInstall(newVersion)}>{('Install and restart')}</button>
             </>,
             autoClose: false
           });
@@ -74,7 +74,7 @@ function App() {
         </a>
       </div>
 
-      <p>Click on the Tauri, Vite, and React logos to learn more.</p>
+      <p>Click on the logo to learn more.</p>
 
       <form
         className="row"
